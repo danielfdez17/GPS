@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/danielfdez17/GPS#readme",
   "dependencies": {
-    "express": "4.18.2",
     "picocolors": "1.0.0"
+  },
+  "devDependencies": {
+    "standard": "17.1.0"
   }
 }
