@@ -7,12 +7,12 @@
 
 // * podemos controlar eventos del proceso
 process.on('exit', () => {
-    // ? limipar los recursos
-});
+  // ? limipar los recursos
+})
 
 // * current working directory (directory from node <file.js> is launched)
-console.log(process.cwd());
+console.log(process.cwd())
 
 // * platform
-console.log(process.env.PEPITO);
+console.log(process.env.PEPITO)
 // ? usage: PEPITO=adios node 7.process.js
