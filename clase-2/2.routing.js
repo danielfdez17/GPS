@@ -46,5 +46,5 @@ const processRequest = (req, res) => {
 const server = http.createServer(processRequest)
 
 server.listen(1234, () => {
-  console.log(`server listening on port https://localhost/${server.address().port}`)
+  console.log(`server listening on port https://localhost:${server.address().port}`)
 })
